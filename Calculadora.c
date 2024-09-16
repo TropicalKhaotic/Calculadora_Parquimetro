@@ -8,6 +8,7 @@
         int tipo_calculadora;
         printf("tipo de calculadora\n 1 - carro_azul\n 2 - moto_azul\n 3 - carro_verde\n 4 - moto_verde\n");
         scanf("%d", &tipo_calculadora);
+        
         switch (tipo_calculadora){
         case 1:
             printf("Insira o valor do saldo retornado\n");
