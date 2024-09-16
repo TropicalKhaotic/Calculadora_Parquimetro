@@ -8,19 +8,19 @@
         int tipo_calculadora;
         printf("tipo de calculadora\n 1 - carro_azul\n 2 - moto_azul\n 3 - carro_verde\n 4 - moto_verde\n");
         scanf("%d", &tipo_calculadora);
-        
+
         switch (tipo_calculadora){
         case 1:
-            printf("Insira o valor do saldo retornado\n");
+            printf("Insira o valor do saldo final retornado\n");
             scanf("%f", &saldo_retornavel);
 
-            printf("Insira o horario de entrada\n");
+            printf("Insira o horario de entrada da placa\n");
             printf("Horas: \n");
             scanf("%d", &horas_entrada);
             printf("Minutos: \n");
             scanf("%d", &minutos_entrada);
 
-            printf("Insira o horario de saida\n");
+            printf("Insira o horario de finalização da placa\n");
             printf("Horas: \n");
             scanf("%d", &horas_saida);
             printf("Minutos: \n");
@@ -34,16 +34,16 @@
             break;
         
         case 2:
-           printf("Insira o valor do saldo retornado\n");
+           printf("Insira o valor do saldo final retornado\n");
             scanf("%f", &saldo_retornavel);
 
-            printf("Insira o horario de entrada\n");
+            printf("Insira o horario de entrada da placa\n");
             printf("Horas: \n");
             scanf("%d", &horas_entrada);
             printf("Minutos: \n");
             scanf("%d", &minutos_entrada);
 
-            printf("Insira o horario de saida\n");
+            printf("Insira o horario de finalização da placa\n");
             printf("Horas: \n");
             scanf("%d", &horas_saida);
             printf("Minutos: \n");
@@ -57,16 +57,16 @@
             break;
 
         case 3:
-           printf("Insira o valor do saldo retornado\n");
+           printf("Insira o valor do saldo final retornado\n");
             scanf("%f", &saldo_retornavel);
 
-            printf("Insira o horario de entrada\n");
+            printf("Insira o horario de entrada da placa\n");
             printf("Horas: \n");
             scanf("%d", &horas_entrada);
             printf("Minutos: \n");
             scanf("%d", &minutos_entrada);
 
-            printf("Insira o horario de saida\n");
+            printf("Insira o horario de finalização da placa\n");
             printf("Horas: \n");
             scanf("%d", &horas_saida);
             printf("Minutos: \n");
@@ -80,16 +80,16 @@
             break;
 
         case 4:
-           printf("Insira o valor do saldo retornado\n");
+           printf("Insira o valor do saldo final retornado\n");
             scanf("%f", &saldo_retornavel);
 
-            printf("Insira o horario de entrada\n");
+            printf("Insira o horario de entrada da placa\n");
             printf("Horas: \n");
             scanf("%d", &horas_entrada);
             printf("Minutos: \n");
             scanf("%d", &minutos_entrada);
 
-            printf("Insira o horario de saida\n");
+            printf("Insira o horario de finalização da placa\n");
             printf("Horas: \n");
             scanf("%d", &horas_saida);
             printf("Minutos: \n");
