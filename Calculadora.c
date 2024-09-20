@@ -2,7 +2,8 @@
 #include<stdlib.h>
 
     int main(){
-
+        int true = 0;
+        while (true < 5){
         float saldo_retornavel, calculo, calculo2;
         int horas_entrada, horas_entrada_2, horas_saida, horas_saida_2, soma_entrada, soma_saida, horario;
         int tipo_calculadora;
@@ -120,6 +121,7 @@
         }
 
         printf("\n Valor do saldo retornavel: %.2f\n",saldo_retornavel);
-        printf(" O tempo de estacionamento é: %d minutos\n O valor gasto é: %.2f\n O valor da soma do estorno e valor gasto: %.2f", horario, calculo, calculo2);
-        return 0;
+        printf(" O tempo de estacionamento é: %d minutos\n O valor gasto é: %.2f\n O valor da soma do estorno e valor gasto: %.2f\n", horario, calculo, calculo2);
+        true++;
+        }
     }
